@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "client/public/index.html",
+      "src": "client",
       "use": "@vercel/node"
     },
     {
-      "src": "client",
+      "src": "client/public/index.html",
       "use": "@vercel/static-build",
       "config": { "distDir": "client/build" }
     }
