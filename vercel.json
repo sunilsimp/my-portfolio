@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "/route/contactRoute.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "/Client/package.json",
+        "use": "@vercel/next"
+      }
+    ]
+  }
